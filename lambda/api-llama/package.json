@@ -1,0 +1,15 @@
+{
+    "name": "api-llama",
+    "version": "1.0.0",
+    "description": "",
+    "private": true,
+    "license": "UNLICENSED",
+    "devDependencies": {
+        "@types/aws-lambda": "^8.10.133",
+        "@types/node": "^20.11.13"
+    },
+    "dependencies": {
+        "@aws-sdk/client-bedrock": "^3.658.1",
+        "@aws-sdk/client-bedrock-runtime": "^3.658.1"
+    }
+}

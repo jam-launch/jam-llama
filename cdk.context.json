@@ -1,0 +1,10 @@
+{
+  "hosted-zone:account=767397812382:domainName=jamlaunch.com:region=us-east-2": {
+    "Id": "/hostedzone/Z05471273P5G903W0URZ",
+    "Name": "jamlaunch.com."
+  },
+  "hosted-zone:account=767397812382:domainName=jamlaunch.com:region=us-east-1": {
+    "Id": "/hostedzone/Z05471273P5G903W0URZ",
+    "Name": "jamlaunch.com."
+  }
+}

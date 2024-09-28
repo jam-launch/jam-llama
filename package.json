@@ -1,4 +1,8 @@
 {
+  "private": true,
+  "workspaces": [
+    "lambda/*"
+  ],
   "name": "jam-llama",
   "version": "0.1.0",
   "bin": {
