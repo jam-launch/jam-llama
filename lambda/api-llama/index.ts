@@ -8,6 +8,9 @@ export const handler: APIGatewayProxyHandler = async (event) => {
         const body = JSON.parse(event.body || '{}');
         const prompt = body.prompt || '';
         const system = body.system || 'You are a helpful AI assistant';
+        const temperature = body.temperature || 0.5;
+        const top_p = body.top_p || 0.9;
+        const max_gen_len = body.max_gen_length || 1024;
 
         if (!prompt) {
             return {
@@ -25,7 +28,9 @@ export const handler: APIGatewayProxyHandler = async (event) => {
             accept: 'application/json',
             body: JSON.stringify({
                 prompt: fullPrompt,
-                max_gen_len: 1024
+                temperature,
+                top_p,
+                max_gen_len
             }),
         });
 
