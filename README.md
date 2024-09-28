@@ -1,14 +1,8 @@
-# Welcome to your CDK TypeScript project
+# Jam Llama
 
-This is a blank project for CDK development with TypeScript.
+AWS Bedrock-based Llama invocation for Jam Launch servers
 
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
+If you want to use this in your own AWS account, you need to set the API domains
+to ones you own.
 
-## Useful commands
-
-* `npm run build`   compile typescript to js
-* `npm run watch`   watch for changes and compile
-* `npm run test`    perform the jest unit tests
-* `npx cdk deploy`  deploy this stack to your default AWS account/region
-* `npx cdk diff`    compare deployed stack with current state
-* `npx cdk synth`   emits the synthesized CloudFormation template
+This was created to power the Jam Launch Launch Jam game Stardate.
